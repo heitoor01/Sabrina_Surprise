@@ -102,6 +102,10 @@ main {
     background-color: #3a2c1d;
 }
 
+.cape {
+    display: flex;
+    flex-direction: row;
+}
 .bookTitle {
     margin: 0 0 20px 16px;
 }
@@ -116,6 +120,35 @@ main {
     margin: 0 0 20px 16px;
 }
 
+.letters {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.letterTitle {
+    margin: 20px 0 0 16px;
+}
+
+.letter {
+    margin: 20px 0 0 16px;
+}
+
+footer {
+    padding: 10px 5px 20px 5px;
+    background: #735238;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #f0e6e6;
+}
+
+footer a:hover {
+    color: #6980e2;
+}
 
 /* A divider for the sections*/
 
@@ -133,4 +166,31 @@ main {
 .darkMode {
     background-color: #202020;
     color: #f5f5f5;
+}
+
+.darkMode .soft-divider{
+    background: #f0e6e6;
+}
+
+/* Configuring the responsivity */
+
+@media(max-width: 540px){
+    body {
+        width: 100%;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .cape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divineRivalsImg {
+        margin: 10px 0;
+    }
+
 }
