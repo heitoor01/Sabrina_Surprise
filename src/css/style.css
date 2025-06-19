@@ -177,10 +177,12 @@ footer a:hover {
 @media(max-width: 540px){
     body {
         width: 100%;
+        font-size: 1rem;
     }
 
     section {
         padding: 10px;
+        line-height: 1.5em;
     }
 
     .cape {
